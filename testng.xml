@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySuite">
+
+    <test name="Test1" enabled="true">
+
+        <classes>
+            <class name="ru.andestech.learning.at.day3.AppTest02"/>
+            <class name="ru.andestech.learning.at.day3.AppTest01"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="ru.andestech.learning.at.day3.AppTest03"/>
+            <!--<class name="ru.andestech.learning.at.day3.AppTest01"/>-->
+        </classes>
+    </test>
+
+
+
+</suite>
